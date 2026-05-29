@@ -1,50 +1,50 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', '&shifty',
-    Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, '&shifty', LALT, LCTRL, LGUI, lower, RET, SPACE, raise, RGUI, RCTRL, RALT]
+    Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, '&shifty', '&dt_toggle_gaming', LCTRL, LGUI, lower, RET, SPACE, raise, RGUI, RCTRL, RALT]
   gaming:
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - F11
+  - {t: ▽, type: trans}
   - '&esc_tab'
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
   - BSPC
+  - {t: ▽, type: trans}
   - LCTRL
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
   - L
   - ;
   - ''''
+  - {t: ▽, type: trans}
   - LSHIFT
   - Z
   - X
   - C
   - V
-  - B
   - MUTE
   - PLAY PAUSE
   - N
@@ -53,10 +53,10 @@ layers:
   - .
   - /
   - '&shifty'
-  - ''
+  - '&dt_toggle_gaming'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - lower
+  - K
   - SPACE
   - RET
   - raise
@@ -96,14 +96,14 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - '|'
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
+  - +
   - '{'
   - '}'
   - {t: ▽, type: trans}
